@@ -169,6 +169,7 @@ Before starting a worker, make sure that the GST plugin path includes the path w
 resides, something like:
 
     export GST_PLUGIN_PATH=~/tools/gst-kaldi-nnet2-online/src
+    export GST_PLUGIN_SYSTEM_PATH=~/tools/gst-kaldi-nnet2-online/src
 
 Test if it worked:
 
