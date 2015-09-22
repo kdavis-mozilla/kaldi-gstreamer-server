@@ -118,7 +118,7 @@ Now, you can start a worker:
 
     python kaldigstserver/worker.py -u ws://localhost:8888/worker/ws/speech -c sample_worker.yaml
 
-The `-u ws://localhost:8890/worker/ws/speech` argument specifies the address of the main server
+The `-u ws://localhost:8888/worker/ws/speech` argument specifies the address of the main server
 that the worker should connect to. Make sure you are using the same port as in the server invocation.
 
 You can start any number of worker processes, just use the same command to start the next workers.
